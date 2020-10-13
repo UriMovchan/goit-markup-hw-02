@@ -56,6 +56,10 @@ h2 {
     font: normal 500 14px/16px Roboto;
     letter-spacing: 0.02em;
 }
+.main-links li a:hover,
+.main-links li a:focus{
+   color: #2196F3;
+}
 .main-links li a{
     color: #212121;
     font: normal 500 14px/16px Roboto;
@@ -80,6 +84,10 @@ h2 {
     color: #757575;
     font: normal 500 14px/16px Roboto;
     text-decoration: none;
+}
+.main-mail-tel li a:hover,
+.main-mail-tel li a:focus {
+    color: #2196F3;
 }
 
 .bussines-solution {
@@ -112,6 +120,16 @@ h2 {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
    
+}
+.bussines-solution button:hover,
+.bussines-solution button:focus {
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    background: #fff;
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(33,150,243,1);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(33,150,243,1);
+    box-shadow: 0px 0px 5px 5px rgba(33,150,243,1);
+
 }
 .features {
     position: relative;
@@ -285,9 +303,12 @@ address li, address a {
 }
 
 .footer-mail-tel a{
-    
     opacity: 0.6;
     text-decoration: none;
+}
+.footer-mail-tel a:hover,
+.footer-mail-tel a:focus{
+    color: #2196F3;
 }
 .footer.logo {
     position: relative;
