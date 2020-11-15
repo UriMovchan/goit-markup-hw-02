@@ -80,7 +80,7 @@ body {
     position: relative;
     width: 1600px;
     margin: 0 auto;
-    font: 500 14px/1.14 Roboto;
+    font: 500 14px/1.14 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     color: var(--text-grey);
     background:var(--white);
@@ -152,7 +152,7 @@ header {height: 80px;}
     height: 120px;
     color: var(--white);
     text-align: center;
-    font: 900 44px/1.36 Roboto;
+    font: 900 44px/1.36 'Roboto', sans-serif;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -163,7 +163,7 @@ header {height: 80px;}
     width: 200px;
     height: 50px;
     color: var(--white);
-    font: 900 16px/1.875 Roboto;
+    font: 900 16px/1.875 'Roboto', sans-serif;
     letter-spacing: 0.06em;
     border-radius: 4px;
     background: var(--active-link);
@@ -244,7 +244,7 @@ header {height: 80px;}
 .our-team li:last-child {margin-right: 0;}
 .our-team--info {
     margin: 30px auto;
-    font: 500 16px/1.187 Roboto;
+    font: 500 16px/1.187 'Roboto', sans-serif;
 }
 .our-team--info-name {
     display: block;
@@ -267,14 +267,11 @@ header {height: 80px;}
     border-radius: 4px;
     text-align: center;
     color: var(--text-dark); 
-    font: 16px/1.62 Roboto;
+    font: 16px/1.62 'Roboto', sans-serif;
     background: var(--background-grey);
 }
 .filter button:hover,
-.filter button:focus,
-.filter button.active,
-.filter button.active:hover,
-.filter button.active:focus {
+.filter button:focus {
     color: var(--white);
     background: var(--active-link);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
